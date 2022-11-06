@@ -1,14 +1,12 @@
 name: packages
 description: A sample command-line application.
 version: 1.0.0
-# homepage: https://www.example.com
+# homepage: https://www.aleteo.com.co/
 
 environment:
-  sdk: '>=2.18.2 <3.0.0'
-
-# dependencies:
-#   path: ^1.8.0
-
+  sdk: ">=2.18.2 <3.0.0"
 dev_dependencies:
   lints: ^2.0.1
   test: ^1.16.0
+dependencies:
+  http: ^0.13.5
